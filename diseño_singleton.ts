@@ -23,7 +23,7 @@ class Inventario {
   }
 
   public listarEquipos(): Equipo[] {
-    return [...this.equipos];
+    return this.equipos;
   }
 }
 
